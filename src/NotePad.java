@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class Notebad extends JFrame implements ActionListener {
+public class NotePad extends JFrame implements ActionListener {
 
     private JTextArea textarea;
     private JMenuBar menubar;
@@ -16,7 +16,7 @@ public class Notebad extends JFrame implements ActionListener {
     private JMenuItem save;
     private JMenuItem exit;
 
-    public Notebad() {
+    public NotePad() {
         super("Sample Note Bad"); // name of the program
         textarea = new JTextArea();
         menubar = new JMenuBar();
